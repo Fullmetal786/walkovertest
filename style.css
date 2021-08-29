@@ -45,7 +45,7 @@ h1{
 }
 .two{
     height: 565px;
-    width: 200px;
+    width: 207px;
     margin: 1em;
     text-align: center;
     background-color: aqua;
@@ -61,14 +61,14 @@ h1{
     /* margin: 1em; */
     margin:  1em 1em 1em 0;
     /* background-color: aqua; */
-    background-image: url(1234.jpg);
+    background-image: url(coffee2.jpg);
     height: 276px;
     width: 234px; 
     
 }
 #three3{
     margin: 0 1em 1em 1em;
-    background-image: url(123.jpg);
+    background-image: url(coffee1.jpg);
     background-color: aqua;
     height: 276px;
     width: 234px;
@@ -79,13 +79,27 @@ h1{
     height: 276px;
     width: 234px;
 }
+.img{
+    width: 50px;
+    height: 100px;
+}
 @media screen and (max-width: 768px) {
     .box {
-      margin-bottom: 1em;
+        margin-bottom: 1em;
     }
     .main {
         display: flex;
         flex-direction: column; 
-      }
+    }
+    #box2{
+        display: flex;
+        flex-direction: column;    
+    }
+    .two{
+        width: 93%;
+        height: 270px;
+        
+    }
     
-  }
+    
+}
